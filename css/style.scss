@@ -1,0 +1,99 @@
+$white: white;
+$gray: #d9d9d9;
+
+
+// NAVBAR ----
+nav {
+    display: auto;
+
+    p{
+        font-size: 30px;
+        padding-top: 20px;    
+        color: $gray;
+        display: inline;
+    }
+
+    .custom-toggler {
+
+        .navbar-toggler-icon {
+            background-image: url(
+                "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(217, 217, 217, 0.8)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+            }
+
+        }
+        .navbar-toggler {
+            border-color: $gray;
+        }
+
+    ul{
+        
+        li{
+            font-size: 20px;
+            margin-left: 20px;
+
+            &:hover{
+                transition: ease .8s;
+                color: $white !important;
+            }   
+            
+            a{
+                color: $gray !important;
+            }
+        }
+    }
+}
+
+// CAROUSEL
+
+// MOBILE
+@media (max-width: 576px) {
+    .carousel-item img{
+        height: 40vh !important;
+        width: 100%;
+    }
+}
+
+.container-fluid{
+
+    .carousel-item img{
+        height: 85vh;
+        width: 100%;
+    }
+
+    .carousel-indicators {
+
+        button{
+            border-radius: 150px;
+            height: 25px;
+            display: inline-block;
+        }
+    }
+
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+        height: 100px;
+        width: 300px;
+        background-size: 100%, 100%;
+    }   
+
+    .carousel-item .carousel-caption{
+
+        h5{
+            font-size: 60px;
+        }
+
+        p{
+            font-size: 20px;
+        }
+    }
+
+}
+
+// FOOTER
+footer {
+    margin-top: 300px;
+
+    li{
+        font-size: 20px;
+        
+    }
+}
