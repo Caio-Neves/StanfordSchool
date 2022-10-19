@@ -1,13 +1,3 @@
-async function injectContentHome(){
-
-    let url = location.href; 
-    file = url.split('='); 
-    const resp = await fetch (`pages/index.html`);
-    const html = await resp.text(); 
-    // let inject = document.getElementById('content');
-    // inject.innerHTML =html;
-}
-
 async function injectContent(){
 
     let url = location.href; //Pega o endereço da URL

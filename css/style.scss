@@ -171,6 +171,7 @@ h3.pgColegioH3 {
     background-color: #284B63;
     text-align: center;
     color: white;
+    margin-top: 10px;
 }
 
 p.pgColegioP {
@@ -179,6 +180,8 @@ p.pgColegioP {
 
 .pgColegioImg {
     padding: 20px 20px 20px 20px;
+    width: 50%;
+    margin: auto;
 }
 
 .pgColegioImgHistoria {
@@ -189,3 +192,30 @@ p.pgColegioP {
     margin-right: auto;
 
 }
+
+// ------- FEITO POR BRUNO MELO -------]
+#btn15{
+    background-color: rgb(40, 75, 99);
+    color: white;
+    max-width: 30%;
+ }
+ 
+ @media screen and (min-width:990px) {
+ .grid-container2{
+     grid-gap: 5px;
+     display: grid;
+     margin-top: 80px;
+     margin: 80px;
+ }
+ .mb-3{
+     margin: 10px;
+ }
+ }
+ .grid-container2{
+     margin: 10px;
+ }
+ .pgColegioCabH3{
+     background-color: rgb(40, 75, 99);
+     color: white;
+     text-align:left;
+ } 
