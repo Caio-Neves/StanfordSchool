@@ -1,6 +1,26 @@
+// FEITO POR CAIO NEVES
+
 $white: white;
 $gray: #d9d9d9;
+$blue: #284b63;
+$black: #353535;
+$green: #4c6e71;
 
+// GERAL CUSTOMS
+.btn {
+    background-color: $blue;
+    border: none;
+    text-transform: uppercase;
+}
+.button-pesquisar{
+    background-color: $green;
+    color: $white;
+}
+a{
+    text-decoration: none;
+}
+
+// ----------- STYLE HOME -----------
 
 // NAVBAR ----
 nav {
@@ -45,15 +65,15 @@ nav {
 
 // CAROUSEL
 
-// MOBILE
+// MOBILE CAROUSEL
 @media (max-width: 576px) {
-    .carousel-item img{
+    .intro-carousel .carousel-inner .carousel-item img{
         height: 40vh !important;
         width: 100%;
     }
 }
 
-.container-fluid{
+.intro-carousel{
 
     .carousel-item img{
         height: 85vh;
@@ -78,22 +98,94 @@ nav {
     .carousel-item .carousel-caption{
 
         h5{
-            font-size: 60px;
+            font-size: 55px;
+            text-transform: uppercase;
+            text-shadow: 0px 5px 5px black;
         }
 
         p{
-            font-size: 20px;
+            font-size: 25px;
+            @extend h5;
         }
     }
 
 }
+
+// MATRICULA
+.card-matricula{
+    margin-left: 7%;
+    margin-bottom: 20px;
+
+    img{
+        height: 200px;
+        width: 100%;
+    }
+
+    p{
+        text-align: center;
+    }
+}
+
+// NOTÍCIAS
+@media (max-width: 576px) {
+    .card-news {
+        width: 20rem;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+}
+
+.container h3{
+    font-size: 35px;
+}
+
+
+a{
+    &:hover{
+        opacity: .5;
+        transition: .5s;
+    }
+
+    .card-news{
+        border: 3px solid $blue;
+
+        img{
+            height: 300px;
+        }
+    }
+}
+
 
 // FOOTER
 footer {
     margin-top: 300px;
 
     li{
-        font-size: 20px;
-        
+        font-size: 20px; 
     }
+}
+
+// ------- FEITO POR JARDEL DA SILVA -------
+
+h3.pgColegioH3 {
+    background-color: #284B63;
+    text-align: center;
+    color: white;
+}
+
+p.pgColegioP {
+    padding-left: 10px;
+}
+
+.pgColegioImg {
+    padding: 20px 20px 20px 20px;
+}
+
+.pgColegioImgHistoria {
+    width: 50%;
+    padding-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 }
