@@ -168,7 +168,7 @@ footer {
 // ------- FEITO POR JARDEL DA SILVA -------
 
 h3.pgColegioH3 {
-    background-color: #284B63;
+    background-color: $blue;
     text-align: center;
     color: white;
     margin-top: 10px;
@@ -226,4 +226,57 @@ h3.pgColegioH3 {/*Feito por Jardel da Silva*/
     background-color: #284B63;
     text-align: center;
     color: white;
+}
+
+//  ------- FEITO POR GUSTAVO ALVES -------
+
+
+#ensinoMedio {
+    padding: 0;
+    width: 100%;    
+    background-color: #284b63;
+    border: 0;
+    color: white;
+    text-align: center;
+}
+
+.ensinoMedioCursos {
+    width: 800px;
+    display: inline-block;
+    margin-left: 50px;
+
+}
+
+#ensinoMedio3 {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-color: #284b63;
+    border: 0;
+}
+
+.TiposMedio {
+    width: 850px;
+    padding: 0;
+    margin: 0;
+    background-color: #284b63;
+    border: 0;
+}
+
+#paragrafroEnsinoMedio {
+    margin-left: 50px;
+    width: 1200px;
+}
+
+.divTelaEM1,
+.divTelaEM2,.divTelaEMterceirao{
+    width: 900px;
+}
+
+.divTelaEm1geral,
+.divTelaEMGeral2 {
+    display: flex;
+}
+.card2{
+    width: 8000px;
 }

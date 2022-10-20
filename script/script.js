@@ -1,10 +1,11 @@
 async function injectContent(){
 
-    let url = location.href; //Pega o endereço da URL
-    file = url.split('='); //Divide o endereço pelo = e aplica os valores como array
-    const resp = await fetch (`pages/${file[1]}.html`);//Pega o valor após o = da URL e aplica no fetch
-    const html = await resp.text(); //Converte o resultado do fetch para texto
-    let inject = document.getElementById('content'); //Seleciona o destino para carregar o html
+    let url = location.href; 
+    file = url.split('=');
+    let view = (file[1] != undefined) ? file[1] : file[1] = 'home';
+    const resp = await fetch (`pages/${file[1]}.html`);
+    const html = await resp.text();
+    let inject = document.getElementById('content');
     inject.innerHTML =html;
 }
 
