@@ -70,7 +70,7 @@ nav ul li a {
 }
 
 .card-matricula {
-  margin-left: 7%;
+  margin-left: 1%;
   margin-bottom: 20px;
 }
 .card-matricula img {
@@ -148,9 +148,6 @@ p.pgColegioP {
     margin-top: 80px;
     margin: 80px;
   }
-  .mb-3 {
-    margin: 10px;
-  }
 }
 .grid-container2 {
   margin: 10px;
@@ -160,4 +157,15 @@ p.pgColegioP {
   background-color: rgb(40, 75, 99);
   color: white;
   text-align: left;
+}
+
+.my-button {
+  background-color: #284B63;
+  color: #fff;
+}
+
+h3.pgColegioH3 { /*Feito por Jardel da Silva*/
+  background-color: #284B63;
+  text-align: center;
+  color: white;
 }/*# sourceMappingURL=style.css.map */
