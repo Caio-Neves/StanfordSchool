@@ -69,8 +69,13 @@ nav ul li a {
   font-size: 25px;
 }
 
+@media (max-width: 576px) {
+  .card-matricula {
+    margin: auto !important;
+  }
+}
 .card-matricula {
-  margin-left: 1%;
+  margin-left: 3%;
   margin-bottom: 20px;
 }
 .card-matricula img {
@@ -219,7 +224,3 @@ h3.pgColegioH3 { /*Feito por Jardel da Silva*/
 .card2 {
   width: 8000px;
 }/*# sourceMappingURL=style.css.map */
-
-.formContent{
-  padding: 10px 20px;
-}

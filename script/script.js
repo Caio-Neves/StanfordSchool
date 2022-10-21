@@ -6,14 +6,14 @@ async function injectContent(){
     const resp = await fetch (`pages/${file[1]}.html`);
     const html = await resp.text();
     let inject = document.getElementById('content');
-    inject.innerHTML = html;
+    inject.innerHTML =html;
 }
 
 
 function activeLink(){
-    let url = location.href;
+    let url = Location.href;
     let view = url.split('=')
-    let sessao = (view[1] != undefined) ? view[1] : 'home';
+    let sessao = (view[1] != undefined) ? view[1] : 'inicio';
     document.getElementById(sessao).className += ' active';
 }
 
@@ -50,9 +50,7 @@ document.querySelectorAll('input').forEach(($input)=>{
     },false)
 
 })
-
    
 function questao(){
     alert( "Sua dúvida foi encaminhada com sucesso! Em breve entramos em contato!")   
 };
-

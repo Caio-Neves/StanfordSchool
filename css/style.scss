@@ -112,8 +112,14 @@ nav {
 }
 
 // MATRICULA
+
+@media (max-width: 576px) {
+    .card-matricula{
+        margin: auto !important;
+    }
+}
 .card-matricula{
-    margin-left: 1%;
+    margin-left: 3%;
     margin-bottom: 20px;
     
     img{
