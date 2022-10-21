@@ -44,7 +44,7 @@ Percorra todo o site, clique nos links, verifique a validação dos campos de fo
 
 * **Líder de Equipe** - [Caio Neves](https://www.linkedin.com/in/caio-neves-dos-santos-a1a1a8185/) - *Responsável pela página Home* 
 * **Desenvolvedor** - [Jardel da Silva](https://www.linkedin.com/in/jardel-da-silva/) - *Responsável pela página o Colégio*
-* **Desenvolvedor** - [Guilherme Alves](https://www.linkedin.com/in/gustavo-alves-da-silva-432077215) - *Responsável pela página Nível de Ensino* 
+* **Desenvolvedor** - [Gustavo Alves](https://www.linkedin.com/in/gustavo-alves-da-silva-432077215) - *Responsável pela página Nível de Ensino* 
 * **Desenvolvedor** - [Bruno Wilke](https://www.linkedin.com/in/brunowilke/) - *Responsável pela página Matrícula*
 * **Desenvolvedor** - [Bruno Melo](http://linkedin.com/in/brunofmelo) - *Responsável pela página Contato*
 
