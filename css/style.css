@@ -1,3 +1,4 @@
+/* ----- FEITO POR CAIO NEVES ----- */
 .btn {
   background-color: #284b63;
   border: none;
@@ -115,6 +116,7 @@ footer li {
   font-size: 20px;
 }
 
+/* ----- FEITO POR JARDEL DA SILVA ----- */
 h3.pgColegioH3 {
   background-color: #284b63;
   text-align: center;
@@ -140,6 +142,8 @@ p.pgColegioP {
   margin-right: auto;
 }
 
+/* ----- FEITO POR BRUNO MELO ----- */
+
 #btn15 {
   background-color: rgb(40, 75, 99);
   color: white;
@@ -164,6 +168,7 @@ p.pgColegioP {
   text-align: left;
 }
 
+/* ----- FEITO POR BRUNO WILKE ----- */
 .my-button {
   background-color: #284B63;
   color: #fff;
@@ -190,37 +195,4 @@ h3.pgColegioH3 { /*Feito por Jardel da Silva*/
   margin-left: 50px;
 }
 
-#ensinoMedio3 {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  background-color: #284b63;
-  border: 0;
-}
-
-.TiposMedio {
-  width: 850px;
-  padding: 0;
-  margin: 0;
-  background-color: #284b63;
-  border: 0;
-}
-
-#paragrafroEnsinoMedio {
-  margin-left: 50px;
-  width: 1200px;
-}
-
-.divTelaEM1,
-.divTelaEM2, .divTelaEMterceirao {
-  width: 900px;
-}
-
-.divTelaEm1geral,
-.divTelaEMGeral2 {
-  display: flex;
-}
-
-.card2 {
-  width: 8000px;
-}/*# sourceMappingURL=style.css.map */
+/* ----- FEITO POR GUSTAVO ALVES ----- */
