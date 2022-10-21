@@ -196,3 +196,54 @@ h3.pgColegioH3 { /*Feito por Jardel da Silva*/
 }
 
 /* ----- FEITO POR GUSTAVO ALVES ----- */
+#ensinoMedio {
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.TiposMedio {
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  background-color: #284b63;
+  border: 0;
+}
+
+#paragrafroEnsinoMedio {
+  margin-left: 10%;
+  width: 80%;
+}
+
+.divTelaEm1geral {
+  width: 80%;
+  display: flex;
+  gap: 30px;
+  flex-direction: column;
+}
+
+.cursoConteudo{
+  margin-left: 10%;
+  width: 80%;
+  display: flex;
+  gap: 30px;
+}
+
+
+.CabecalhoCurso{
+  width: 80%;
+  margin-left: 10%;
+}
+
+
+.TiposMedioDois{
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  background-color: #284b63;
+  border: 0;
+  width: 80%;
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-bottom: 20px;
+}

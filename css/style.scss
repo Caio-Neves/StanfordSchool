@@ -235,54 +235,55 @@ h3.pgColegioH3 {/*Feito por Jardel da Silva*/
 }
 
 //  ------- FEITO POR GUSTAVO ALVES -------
-
-
 #ensinoMedio {
     padding: 0;
-    width: 100%;    
-    background-color: #284b63;
-    border: 0;
-    color: white;
-    text-align: center;
-}
-
-.ensinoMedioCursos {
-    width: 800px;
-    display: inline-block;
-    margin-left: 50px;
-
-}
-
-#ensinoMedio3 {
-    padding: 0;
-    margin: 0;
     width: 100%;
-    background-color: #284b63;
-    border: 0;
-}
-
-.TiposMedio {
-    width: 850px;
+    text-align: center;
+  }
+  
+  .TiposMedio {
+    color: #fff;
     padding: 0;
     margin: 0;
     background-color: #284b63;
     border: 0;
-}
-
-#paragrafroEnsinoMedio {
-    margin-left: 50px;
-    width: 1200px;
-}
-
-.divTelaEM1,
-.divTelaEM2,.divTelaEMterceirao{
-    width: 900px;
-}
-
-.divTelaEm1geral,
-.divTelaEMGeral2 {
+  }
+  
+  #paragrafroEnsinoMedio {
+    margin-left: 10%;
+    width: 80%;
+  }
+  
+  .divTelaEm1geral {
+    width: 80%;
     display: flex;
-}
-.card2{
-    width: 8000px;
-}
+    gap: 30px;
+    flex-direction: column;
+  }
+  
+  .cursoConteudo{
+    margin-left: 10%;
+    width: 80%;
+    display: flex;
+    gap: 30px;
+  }
+  
+  
+  .CabecalhoCurso{
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  
+  .TiposMedioDois{
+    color: #fff;
+    padding: 0;
+    margin: 0;
+    background-color: #284b63;
+    border: 0;
+    width: 80%;
+    margin-top: 50px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+  }
+
