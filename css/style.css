@@ -1,3 +1,4 @@
+
 /* ----- FEITO POR CAIO NEVES ----- */
 .btn {
   background-color: #284b63;
@@ -108,12 +109,18 @@ a .card-news {
 a .card-news img {
   height: 300px;
 }
+a .card-news p{
+  font-family:'Playfair Display', serif;
+}
 
 footer {
   margin-top: 300px;
 }
 footer li {
-  font-size: 20px;
+  font-size: 25px;
+}
+footer li i{
+  color: black;
 }
 
 /* ----- FEITO POR JARDEL DA SILVA ----- */
@@ -174,7 +181,7 @@ p.pgColegioP {
   color: #fff;
 }
 
-h3.pgColegioH3 { /*Feito por Jardel da Silva*/
+h1.pgColegioH3 { /*Feito por Jardel da Silva*/
   background-color: #284B63;
   text-align: center;
   color: white;
@@ -193,6 +200,9 @@ h3.pgColegioH3 { /*Feito por Jardel da Silva*/
   width: 800px;
   display: inline-block;
   margin-left: 50px;
+}
+.formContent{
+  padding: 20px 10px;
 }
 
 /* ----- FEITO POR GUSTAVO ALVES ----- */
